@@ -1,4 +1,4 @@
-fpga-snake
+VHDL-Snake
 ==========
 
 VHDLで書かれたスネークゲームです．Altera DE0用です．
@@ -6,10 +6,12 @@ VHDLで書かれたスネークゲームです．Altera DE0用です．
 Quartus II 13.1で論理合成を確認しました．
 
 ## 特徴
-* VGA出力およびキーボード入力に対応
+* VGA出力およびPS/2キーボード入力に対応
+
+## 遊び方
+* リセット後，スペースキーでゲームスタート
+* 矢印キー上下左右で進行方向選択
 
 ## ライセンス
 GPL v2
-
-http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
 
